@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body {
+    height: 842px;
+    width: 595px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+}
+div{
+    margin-top: 5px;
+}
+header{
+    margin-top: 20px;
+    display: flex;
+}
+header>div{
+    width: 400px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    border-bottom: 1px solid;
+}
+header p{
+    font-size: 15px;
+    font-style: italic;
+}
+.date{
+    width: 115px;
+}
+.senior_sales_representative_summary{
+margin-left: 70px;
+}
+ul{
+    margin-left: 15px;
+}
+.senior_sales_representative,.customer_relationship_officer,.parttime_retail_associate,.education_summary,.certificates_summary{
+    display: flex;
+}
+.customer_relationship_officer_summary,.parttime_retail_associate_summary{
+margin-left: 43px;
+}
+.education_summary_text{
+    margin-left: 58px;
+}
+.certificates_summary>.date>h3{
+    margin-bottom: 5px;
+}
+.certificates_summary_text>p{
+    margin-bottom: 7px;
+    margin-left: 20px;
+}
+
+
