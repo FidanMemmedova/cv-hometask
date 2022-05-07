@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+}
+body {
+    height: 842px;
+    width: 595px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+}
+header{
+    margin-top: 20px;
+}
+h1{
+    font-weight:lighter;
+    border-bottom: 1px solid;
+}
+h4,h5{
+    font-size: 12px;
+}
+h5{
+    font-weight:500 ;
+}
+section{
+    margin-top: 10px;
+}
+.address{
+    margin-top: 5px;
+}
+#PROFESSIONALSUMMARY>.summary{
+    margin-top: 5px;
+}
+#HIGHLIGHTS{
+    margin-top: 10px;
+}
+#HIGHLIGHTS div{
+    display: flex;   
+}
+.HIGHLIGHTS_right{
+    margin-left: 200px;
+}
+.HIGHLIGHTS_list1,.HIGHLIGHTS_list2{
+    width: 200px;
+}
+h3{
+    font-size: 15px;
+}
+.experience_above,.experience_below{
+    display: flex;
+}
+.experience_above h3{
+    width: 420px;
+}
+.experience_below{
+    margin-top: 10px;
+}
+.experience_below h3{
+    width: 264px;
+}
+.alphaenterprises, .omegasystems{
+    margin-left: 30px;
+}
+#EDUCATION>div{
+    display: flex;
+}
+.education_summary-item{
+    margin-left: 140px;
+}
+#ADDITIONALINFORMATION div{
+    margin-left: 200px;
+}
